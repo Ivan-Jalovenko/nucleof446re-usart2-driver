@@ -1,0 +1,52 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables and Embedded Binaries
+*.exe
+*.out
+*.app
+*.elf
+*.bin
+*.hex
+*.map
+
+# CMake Build Directories & Outputs
+/build/
+CMakeFiles/
+CMakeCache.txt
+CMakePresets.json.user
+cmake_install.cmake
+
+# VS Code Specifics (Ignore user-specific or temporary IDE data)
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+.history/
+
+# Toolchain / Language Server Cache
+.clangd/
+
+# STM32CubeMX backups and temporary logs
+*.log
